@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Eco_Bicycle_for_Rent.Presentation
 {
-    public partial class Form1 : Form
+    public partial class frmQuanLyNV : Form
     {
-        public Form1()
+        public frmQuanLyNV()
         {
             InitializeComponent();
         }
