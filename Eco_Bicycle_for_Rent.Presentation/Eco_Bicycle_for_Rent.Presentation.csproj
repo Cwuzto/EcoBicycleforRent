@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AlphaBlendTextBox">
-      <HintPath>Lib\AlphaBlendTextBox.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,34 +46,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmHomePage.cs">
+    <Compile Include="frmThongKe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHomePage.Designer.cs">
-      <DependentUpon>frmHomePage.cs</DependentUpon>
+    <Compile Include="frmThongKe.Designer.cs">
+      <DependentUpon>frmThongKe.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="frmQLChiNhanh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.Designer.cs">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <Compile Include="frmQLChiNhanh.Designer.cs">
+      <DependentUpon>frmQLChiNhanh.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmQuanLyNV.cs">
+    <Compile Include="frmQLKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmQuanLyNV.Designer.cs">
-      <DependentUpon>frmQuanLyNV.cs</DependentUpon>
+    <Compile Include="frmQLKhachHang.Designer.cs">
+      <DependentUpon>frmQLKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLXeDap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLXeDap.Designer.cs">
+      <DependentUpon>frmQLXeDap.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmHomePage.resx">
-      <DependentUpon>frmHomePage.cs</DependentUpon>
+    <EmbeddedResource Include="frmQLChiNhanh.resx">
+      <DependentUpon>frmQLChiNhanh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin.resx">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <EmbeddedResource Include="frmQLKhachHang.resx">
+      <DependentUpon>frmQLKhachHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmQuanLyNV.resx">
-      <DependentUpon>frmQuanLyNV.cs</DependentUpon>
+    <EmbeddedResource Include="frmQLXeDap.resx">
+      <DependentUpon>frmQLXeDap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThongKe.resx">
+      <DependentUpon>frmThongKe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -86,7 +92,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -106,54 +111,6 @@
       <Project>{1a137333-a03a-41ec-a71c-878b46b749cc}</Project>
       <Name>Eco_Bicycle_for_Rent.Bussiness</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Colourful Pastel Gradient Background Inspiration Quotation Instagram Post.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Gradient Background, Motivating, Typographic Modern Instagram Post.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\LOGIN.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\LOGIN %283%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\user %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\padlock.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bycicle.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bicycle.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Exit.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pin.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\placeholder.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\xe-dap-cong-cong1-8564.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sparkles.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sparkles %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sparkling.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\stars.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
